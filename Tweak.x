@@ -1,11 +1,11 @@
 %config(generator=internal);
 
 %hook UIScrollView
-- (void)setVerticalScrollDecelerationFactor:(float)arg1
+- (void)setVerticalScrollDecelerationFactor:(CGFloat)arg1
 {
     %orig(UIScrollViewDecelerationRateNormal);
 }
-- (void)setHorizontalScrollDecelerationFactor:(float)arg1
+- (void)setHorizontalScrollDecelerationFactor:(CGFloat)arg1
 {
     %orig(UIScrollViewDecelerationRateNormal);
 }
