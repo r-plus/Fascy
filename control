@@ -1,9 +1,9 @@
-Package: jp.r-plus.webscrollian
-Name: webscrollian
+Package: jp.r-plus.fascy
+Name: Fascy
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 1.0
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Fast scroll fixity
 Maintainer: r_plus
 Author: r_plus
 Section: Tweaks
